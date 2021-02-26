@@ -1,0 +1,9 @@
+<p>calculadora</p>
+<input type="number" name="Operador1" [(ngModel)]="op1">
+<input type="number" name="Operador2" [(ngModel)]="op2">
+<input type="button" value="+" (click)="suma()">
+<input type="button" value="-" (click)="resta()">
+<input type="button" value="*" (click)="multiplicacion()">
+<input type="button" value="/" (click)="division()">
+<br>
+<p>{{resul}}</p>
